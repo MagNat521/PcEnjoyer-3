@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        .popupbox_preview {
+            cursor: zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: -webkit-zoom-in;
+        }
+        .popupbox_header {
+            overflow: hidden;
+            font-weight: bold;
+            line-height: 2em;
+        }
+        .popupbox_navigation {
+            display: inline;
+            float: right;
+            margin-right: 12px;
+        }
+        .popupbox a {
+            font-size: 200%;
+            text-decoration: none;
+            color: #cccccc;
+        }
+        .popupbox a:hover {
+            color: #fff;
+        }
+        .popupbox {
+            display: none;
+            padding: 7px;
+            height: 90%; /* Значение 90% установлено специально, чтобы видеть нижнюю границу. А вообще, тут должно быть 100%.*/
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.6);
+            text-decoration: none;
+            color: #cccccc;
+        }
+        .popupbox:target {
+            display: block;
+        }
+        .popupbox_image {
+            margin: 7px 14px 0 0;
+            border: 4px dashed black;
+            overflow: auto;
+        }
+        .popupbox_image img {
+            width: 100%;
+        }
+    </style>
+    <title>CSS Popup просмотр изображений</title>
+</head>
+<body>
+<a href="#showimage1" class="popupbox_preview"><img src="./photos/photos-motherboard/motherboard-ph-2.png"></a>
+<a href="#showimage2" class="popupbox_preview"><img src="http://img-fotki.yandex.ru/get/4125/24888853.88/0_93384_6a2c8327_XS.jpeg" /></a>
+<div class="popupbox" id="showimage1">
+    <div class="popupbox_header">
+        Заголовок изображения 1
+        <div class="popupbox_navigation">
+            <a href="#closeimage" title="Назад">◄</a> <a href="#showimage2" title="Дальше">►</a> <a href="#closeimage" title="Закрыть">✖</a>
+        </div>
+    </div>
+    <div class="popupbox_image">
+        <img src="./photos/photos-motherboard/motherboard-ph-2.png" >
+    </div>
+</div>
+<div class="popupbox" id="showimage2">
+    <div class="popupbox_header">
+        Заголовок изображения 2
+        <div class="popupbox_navigation">
+            <a href="#showimage1" title="Назад">◄</a> <a href="#closeimage" title="Дальше">►</a> <a href="#closeimage" title="Закрыть">✖</a>
+        </div>
+    </div>
+    <div class="popupbox_image">
+        <img src="http://img-fotki.yandex.ru/get/4125/24888853.88/0_93384_6a2c8327_orig" />
+    </div>
+</div>
+</body>
+</html>

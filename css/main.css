@@ -1,0 +1,755 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 800px){
+
+    body {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        line-height: 1.4;
+        height: auto;
+        background-color: #0d1117;
+        color: white;
+        overflow-x: hidden;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+    }
+    .navbar-pc{
+        display: block;
+    }
+    .navbar-phone{
+        display: none;
+    }
+
+
+
+    /* полоса прокрутки (скроллбар) */
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        /* ширина для вертикального скролла */
+        height: 1px;
+        /* высота для горизонтального скролла */
+        background-color: rgb(16, 15, 16);
+    }
+
+
+    /* ползунок скроллбара */
+
+    ::-webkit-scrollbar-thumb {
+        padding: 3px;
+        background-color: rgb(113, 117, 121);
+        border-radius: 9em;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #3399ff;
+        transition: all .02 ease-in-out;
+    }
+
+
+    /* слоган на главной странице*/
+
+    .first-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    .slogan-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slogan {
+        text-align: center;
+        margin-top: 93px;
+        font-weight: 900px;
+        font-size: 35px;
+        text-decoration: none;
+        color: #3399ff;
+        width: 35vw;
+        text-shadow: 0px 0px 7px #4F5151;
+    }
+
+
+    /* возможности сайта */
+
+    .table-of-possibilities {
+        font-size: 20px;
+        width: 50%;
+        height: 200px;
+        border-spacing: 20px 20px;
+    }
+
+    .table-header {
+        color: #3399ff;
+        text-shadow: 0px 0px 7px #4F5151;
+        text-align: center;
+        margin-left: 40px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .table-unit {
+        cursor: pointer;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .table-peace {
+        width: 12vw;
+        border-radius: 5px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .links-table {
+        color: #3399ff;
+        text-decoration: none;
+    }
+
+    .links-table::after {
+        border-radius: 5px;
+        display: block;
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #24292f;
+        z-index: -1;
+    }
+
+    .table-peace:hover {
+        transition: all ease-out 0.3s;
+        -webkit-box-shadow: 0px 10px 10px -10px #3399ff;
+        -moz-box-shadow: 0px 10px 10px -10px #3399ff;
+        box-shadow: 0px 10px 10px -10px #3399ff;
+        transform: translate(0,-5px);
+    }
+
+
+    /* навигационная панель*/
+
+    .navbar-pc {
+        width: 100%;
+        height: 92px;
+        background-color: #000033;
+        border-bottom: 1px solid #333;
+    }
+
+    .navbar-pc .container-navbar {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .navbar-menu {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        height: inherit;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar-menu-level-1 {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        border: 3px solid #3399ff;
+        border-radius: 90px;
+    }
+
+    .navbar-a-menu-level-1 {
+        display: inline-block;
+        color: #ddd;
+        opacity: 1;
+        text-decoration: none;
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 25px;
+        transition: all .02 ease-in-out;
+        align-items: center;
+        opacity: 0.8;
+        top: 15px;
+    }
+
+    .navbar-menu-level-1 .menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        list-style-type: none;
+        padding: 0;
+        background-color: #333;
+        border-radius: 8px;
+        padding: 4px;
+        top: 0;
+        transition: s;
+        margin-left: 13px;
+    }
+
+    .navbar-a-menu-level-2 {
+        display: block;
+        text-decoration: none;
+        color: #ddd;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        transition: all .02s ease-out;
+        opacity: 0.8;
+    }
+
+    .navbar-menu-level-1:hover .menu {
+        display: inline-block;
+        top: 100%;
+    }
+
+    .navbar-menu li a:hover {
+        opacity: 1;
+    }
+
+    .navbar-wrap {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+
+    /* лого на навигационной панели */
+
+    .pc-enjoyer-ph {
+        display: inline-block;
+        display: -moz-inline-block;
+        margin-left: 5vw;
+        opacity: 0.9;
+    }
+    .pc-enjoyer-ph-mobile{
+        display: none;
+    }
+
+    .pc-enjoyer-ph:hover {
+        opacity: 1;
+    }
+
+
+    /* кнопка "наверх" */
+
+    .button-up {
+        margin: 5%;
+        text-align: center;
+    }
+
+    .button-up-a {
+        border: 3px solid #3399ff;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        padding: 10px 35px;
+        overflow: hidden;
+        text-decoration: none;
+        color: #ddd;
+        text-align: center;
+        padding: 12px 25px 12px 25px;
+        background: none;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+
+    .button-up-a::before {
+        font-family: FontAwesome;
+        transform: rotate(270deg);
+        content: "\f197";
+        position: absolute;
+        left: 1px;
+        top: 50px;
+        transition: all 200ms ease;
+    }
+
+    .button-up-a::after {
+        font-family: FontAwesome;
+        transform: rotate(270deg);
+        content: "\f197";
+        position: absolute;
+        right: 1px;
+        top: 50px;
+        transition: all 200ms ease;
+    }
+
+    .button-up-a:hover:before {
+        top: 12px;
+    }
+
+    .button-up-a:hover:after {
+        top: 12px;
+    }
+
+    .button-up-a:hover {
+        transition: 0.2s ease;
+        box-shadow: 0px 0px 12px #4F5151;
+    }
+
+
+    /* раздел обновления */
+
+    .news {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 15px 25px;
+        border-bottom: 3px solid #3399ff;
+    }
+
+    .headline {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+
+    .novosti {
+        padding-left: 25px;
+        font-weight: 900px;
+        font-size: 26px;
+        text-decoration: none;
+        color: #3399ff;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .exerpt .link-about {
+        text-decoration: none;
+        color: #3399ff;
+    }
+
+
+    /* описание */
+    .about-us{
+        padding-top: 2vh;
+    }
+    .dialog .about {
+        font-weight: 900px;
+        font-size: 26px;
+        text-decoration: none;
+        color: #3399ff;
+        text-align: center;
+    }
+
+    .dialog {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+
+
+    /* список услуг */
+
+    .list-of-services {
+        border-top: 3px solid #4F5151;
+        border-bottom: 3px solid #4F5151;
+        text-align: left;
+    }
+
+    .list-of-services {
+        list-style: none;
+    }
+
+    .list-of-services li {
+        position: relative;
+        padding: 4px 0 20px 40px;
+        font-variant: small-caps;
+    }
+
+    .list-of-services li:before {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #3399ff;
+        content: "";
+        left: 0;
+        transition: .3s ease-in-out;
+        top: 27px;
+    }
+
+    .list-of-services li:after {
+        position: absolute;
+        border-left: 1px dotted #4F5151;
+        width: 1px;
+        bottom: -12px;
+        content: "";
+        left: 3px;
+        top: 48px;
+    }
+
+    .list-of-services li:hover:before {
+        box-shadow: 0 0 0 10px #4F5151;
+    }
+
+    .list-of-services li:last-child:after {
+        content: none;
+    }
+
+
+    /* раздел о нас */
+
+    .team {
+        font-weight: 900px;
+        font-size: 26px;
+        text-decoration: none;
+        color: #3399ff;
+        text-align: center;
+    }
+
+
+    /* названия комплектующих */
+
+    .accesoire-name {
+        font-weight: 900px;
+        font-size: 26px;
+        text-decoration: none;
+        color: #3399ff;
+        text-align: center;
+    }
+
+    .about-accesoire {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .about-accesoire-section{
+        font-weight: 900px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #3399ff;
+        text-align: center;
+    }
+
+
+    /* кнопка подробнее и текст для "физиков" */
+
+    .read-more-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container {
+        padding: 2rem;
+        border-radius: 2px;
+        line-height: 1.4rem;
+    }
+
+    .read-more-btn {
+        cursor: pointer;
+        opacity: 0.8;
+        color: #3399ff;
+    }
+
+    .read-more-text {
+        display: none;
+    }
+
+    .read-more-text--show {
+        display: inline;
+    }
+
+    .read-more-btn:hover {
+        opacity: 1;
+    }
+
+
+    /* фото на странице оперативная память */
+    .op-ph-1{
+        height: 65vh;
+    }
+    .op-ph-2{
+        width: 42vw;
+    }
+    .op-ph-3{
+        width: 42vw;
+    }
+    .op-ph-4{
+        width: 42vw;
+    }
+    .op-ph-5{
+        width: 42vw;
+    }
+    .op-ph-6{
+        width: 42vw;
+    }
+    .op-ph-7{
+        width: 42vw;
+    }
+    .op-ph-8{
+        width: 42vw;
+    }
+    .op-ph-9{
+        width: 50vw;
+    }
+    .op-ph-10{
+        width: 42vw;
+    }
+    .op-ph-11{
+        width: 42vh;
+    }
+    .op-ph-12{
+        width: 42vw;
+    }
+    .op-ph-13{
+        height: 65vh;
+    }
+    /* фото на странице материнская плата*/
+
+    .moth-ph-1{
+        transform: rotate(90deg);
+        height: 45vw;
+    }
+    .moth-ph-2{
+        width: 60vw;
+    }
+    .moth-ph-3{
+        width: 25vw;
+    }
+    .moth-ph-4{
+        width: 58vw;
+    }
+    .moth-ph-5{
+        height: 85vh;
+    }
+    .moth-ph-7{
+        height: 75vh;
+    }
+    .moth-ph-8{
+        height: 75vh;
+    }
+    .moth-ph-9{
+        height: 75vh;
+    }
+    .moth-ph-10{
+        width: 30vw;
+    }
+    .moth-ph-11{
+        width: 40vw;
+    }
+    .moth-ph-12{
+        width: 30vw;
+        padding-right: 20px;
+    }
+    .moth-ph-13{
+        width: 15vw;
+        padding-right: 1vw;
+    }
+    .moth-ph-14{
+        width: 8vw;
+    }
+
+    /* подвал страницы (копирайт) */
+
+
+    .bottom-page {
+        border-top: 1px solid #333;
+        position: static;
+        bottom: 0;
+        margin-top: 30px;
+        padding-top: 30px;
+        width: 100%;
+        height: 92px;
+        background-color: #000033;
+    }
+    .podval-text{
+        margin-left:4vw;
+    }
+
+
+    /* оперативная память */
+
+
+    /* оглавление */
+
+    .content-table {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        list-style-type: none;
+        border-top: 3px solid #4F5151;
+        border-bottom: 3px solid #4F5151;
+        padding-left: 0;
+        line-height: 35px;
+    }
+
+    .table-op-memory {
+        text-align: left;
+    }
+
+    .table-op-memory {
+        list-style: none;
+    }
+
+    .table-op-memory li {
+        transition: .02s;
+        position: relative;
+        padding: 12px 0 12px 30px;
+        font-variant: small-caps;
+        cursor: pointer;
+    }
+
+    .table-op-memory li:before {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #3399ff;
+        content: "";
+        left: 0;
+        transition: .3s ease-in-out;
+        top: 27px;
+    }
+
+    .table-op-memory li:after {
+        position: absolute;
+        border-left: 1px dotted #4F5151;
+        width: 1px;
+        bottom: -12px;
+        content: "";
+        left: 3px;
+        top: 48px;
+    }
+
+    .table-op-memory li:hover:before {
+        box-shadow: 0 0 0 10px #4F5151;
+    }
+
+    .table-op-memory li:last-child:after {
+        content: none;
+    }
+
+    .op-memory-list {
+        text-decoration: none;
+        color: #ddd;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        opacity: 0.8;
+    }
+
+    .op-memory-list:hover {
+        transition: 0.2s ease;
+        text-decoration: none;
+        opacity: 1;
+    }
+
+    .accesoire-naz {
+        font-weight: 900px;
+        font-size: 35px;
+        text-decoration: none;
+        color: #3399ff;
+        text-align: center;
+    }
+
+
+    /* Раздел Блок питания */
+
+
+    /* калькулятор для расчета мощности блока питания*/
+
+    .your-calc {
+        text-align: center;
+    }
+
+    .pwrunit-form {
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .pwr-calc-form-input {
+        width: 250px;
+        padding: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border: 0;
+        border-bottom: 4px solid #3399ff;
+        border-radius: 5px;
+    }
+
+    .pwr-calc-button {
+        appearance: none;
+        -webkit-appearance: none;
+        padding: 7px;
+        border: none;
+        background-color: #3F51B5;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        width: 70px;
+        margin: 4px;
+    }
+
+    .pwr-calc-button:hover {
+        transform: scale(1.04);
+        transition: all 0.2 ease-out;
+    }
+}
