@@ -652,7 +652,7 @@
     .table-op-memory li {
         transition: .02s;
         position: relative;
-        padding: 12px 0 12px 30px;
+        padding: 13px 0 12px 30px;
         font-variant: small-caps;
         cursor: pointer;
     }
