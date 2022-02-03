@@ -294,6 +294,7 @@
     /* кнопка "наверх" */
 
     .button-up {
+        transition: all 200ms ease-out;
         margin: 5%;
         text-align: center;
         position: fixed;
@@ -486,38 +487,43 @@
     }
 
 
-    /* кнопка подробнее и текст для "физиков" */
+    /* подробнее */
 
-    .read-more-container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .container {
-        padding: 2rem;
-        border-radius: 2px;
-        line-height: 1.4rem;
-    }
-
-    .read-more-btn {
+    .collapsible {
+        font-weight: 600;
+        background-color: #26647e;
+        color: #dddddd;
         cursor: pointer;
-        opacity: 0.8;
-        color: #3399ff;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
     }
 
-    .read-more-text {
-        display: none;
+    .active, .collapsible:hover {
+        background-color: #296D91;
     }
 
-    .read-more-text--show {
-        display: inline;
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #24292f;
+    }
+    .collapsible:after {
+        content: '\02795';
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
     }
 
-    .read-more-btn:hover {
-        opacity: 1;
+    .active:after {
+        content: "\2796";
     }
-
 
     /* фото на странице оперативная память */
     .op-ph-1{
