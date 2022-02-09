@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toTopBtn.style.display = 'none'
 
     window.onscroll = function () {
-        if (window.scrollY > 800) {
+        if (window.scrollY > 600) {
             toTopBtn.style.display = 'block'
         } else {
             toTopBtn.style.display = 'none'
