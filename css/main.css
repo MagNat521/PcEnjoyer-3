@@ -188,7 +188,7 @@
     .navbar-pc {
         width: 100%;
         height: 92px;
-        background-color: #000033;
+        background-color: #0d1122;
         border-bottom: 1px solid #333;
     }
 
@@ -214,9 +214,10 @@
         display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 5px;
         position: relative;
         border: 3px solid #3399ff;
-        border-radius: 90px;
+        border-radius: 10px;
     }
 
     .navbar-a-menu-level-1 {
@@ -224,10 +225,10 @@
         color: #ddd;
         opacity: 1;
         text-decoration: none;
-        padding-left: 25px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 25px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
         transition: all .02 ease-in-out;
         align-items: center;
         opacity: 0.8;
@@ -616,7 +617,7 @@
         padding-right: 1vw;
     }
     .moth-ph-14{
-        width: 8vw;
+        width: 70%;
     }
 
     /* подвал страницы (копирайт) */
