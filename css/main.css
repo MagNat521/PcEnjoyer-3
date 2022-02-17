@@ -771,4 +771,11 @@
         transform: scale(1.04);
         transition: all 0.2 ease-out;
     }
+    .link-to-other-site{
+        color: #3399ff;
+        text-decoration: underline 2px #dddddd;
+    }
+    .link-to-other-site:hover{
+        text-decoration: none ;
+    }
 }
