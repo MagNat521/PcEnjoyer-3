@@ -49,6 +49,16 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 936px){
 
     body {
@@ -364,6 +374,7 @@
     }
 
     .headline {
+        height: 65vh;
         margin-left: 25%;
         margin-right: 25%;
         text-align: center;
@@ -778,4 +789,5 @@
     .link-to-other-site:hover{
         text-decoration: none ;
     }
+
 }

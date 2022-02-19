@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/phone-css.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <style type="text/css">
         .popupbox_preview {
@@ -38,7 +40,7 @@
             text-decoration: none;
             color: #cccccc;
         }
-        .popupbox:target {
+        .popupbox_preview:target .popupbox{
             display: block;
         }
         .popupbox_image {
@@ -53,24 +55,24 @@
     <title>CSS Popup просмотр изображений</title>
 </head>
 <body>
-<a href="#showimage1" class="popupbox_preview"><img src="./photos/photos-motherboard/motherboard-ph-2.png"></a>
-<a href="#showimage2" class="popupbox_preview"><img src="http://img-fotki.yandex.ru/get/4125/24888853.88/0_93384_6a2c8327_XS.jpeg" /></a>
-<div class="popupbox" id="showimage1">
+<a  class="popupbox_preview"><img src="./photos/photos-motherboard/motherboard-ph-2.png"></a>
+<a  class="popupbox_preview"><img src="http://img-fotki.yandex.ru/get/4125/24888853.88/0_93384_6a2c8327_XS.jpeg" /></a>
+<div class="popupbox" >
     <div class="popupbox_header">
         Заголовок изображения 1
         <div class="popupbox_navigation">
-            <a href="#closeimage" title="Назад">◄</a> <a href="#showimage2" title="Дальше">►</a> <a href="#closeimage" title="Закрыть">✖</a>
+            <a  title="Закрыть">✖</a>
         </div>
     </div>
     <div class="popupbox_image">
         <img src="./photos/photos-motherboard/motherboard-ph-2.png" >
     </div>
 </div>
-<div class="popupbox" id="showimage2">
+<div class="popupbox" >
     <div class="popupbox_header">
         Заголовок изображения 2
         <div class="popupbox_navigation">
-            <a href="#showimage1" title="Назад">◄</a> <a href="#closeimage" title="Дальше">►</a> <a href="#closeimage" title="Закрыть">✖</a>
+           <a href="#closeimage" title="Закрыть">✖</a>
         </div>
     </div>
     <div class="popupbox_image">
