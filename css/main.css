@@ -327,7 +327,7 @@
         padding: 12px 25px 12px 25px;
         background-color: #0d1117;
         box-shadow: none;
-        border-radius: 30px;
+        border-radius: 10px;
     }
 
     .button-up-a::before {
@@ -630,6 +630,39 @@
     .moth-ph-14{
         width: 70%;
     }
+    /* фото на странице блок питания*/
+    .bp-ph-1{
+        width: 50vw;
+        border: 1px solid #4F5151;
+    }
+    .bp-ph-2{
+        width: 50vw;
+        border: 1px solid #4F5151;
+    }
+    .bp-ph-3{
+        width: 50vw;
+        border: 1px solid #4F5151;
+    }
+    .bp-ph-4{
+        width: 40vw;
+    }
+    .bp-ph-5{
+        width: 40vw;
+    }
+
+    /* фото на странице центральный процессор*/
+    .cpu-ph-1{
+        width: 40vw;
+    }
+    .cpu-ph-2{
+        width: 40vw;
+    }
+    .cpu-ph-3{
+        width: 40vw;
+    }
+    .cpu-ph-4{
+        width: 40vw;
+    }
 
     /* подвал страницы (копирайт) */
 
@@ -642,7 +675,7 @@
         padding-top: 30px;
         width: 100%;
         height: 92px;
-        background-color: #000033;
+        background-color: #0d1122;
     }
     .podval-text{
         margin-left:4vw;
@@ -745,49 +778,18 @@
 
 
     /* калькулятор для расчета мощности блока питания*/
-
-    .your-calc {
-        text-align: center;
-    }
-
-    .pwrunit-form {
-        box-sizing: border-box;
-        text-align: center;
-    }
-
-    .pwr-calc-form-input {
+    select{
         width: 250px;
         padding: 6px;
         margin-top: 4px;
         margin-bottom: 4px;
         border: 0;
         border-bottom: 4px solid #3399ff;
-        border-radius: 5px;
+        margin-left: 20vw;
     }
 
-    .pwr-calc-button {
-        appearance: none;
-        -webkit-appearance: none;
-        padding: 7px;
-        border: none;
-        background-color: #3F51B5;
-        color: #fff;
-        font-weight: 600;
-        border-radius: 5px;
-        width: 70px;
-        margin: 4px;
-    }
-
-    .pwr-calc-button:hover {
-        transform: scale(1.04);
-        transition: all 0.2 ease-out;
-    }
     .link-to-other-site{
+        text-decoration: underline #ddd;
         color: #3399ff;
-        text-decoration: underline 2px #dddddd;
     }
-    .link-to-other-site:hover{
-        text-decoration: none ;
-    }
-
 }
