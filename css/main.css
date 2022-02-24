@@ -51,6 +51,29 @@
 }
 
 
+.calc-form-select{
+    width: 250px;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 0;
+    border-bottom: 4px solid #3399ff;
+}
+.submit-button{
+    margin-top: 30px;
+    padding: 10px 12px;
+    color: #dddddd;
+    background: #24292f;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
+.submit-button:hover{
+    -webkit-box-shadow: 0px 5px 5px -5px #3399ff;
+    -moz-box-shadow: 0px 5px 5px -5px #3399ff;
+    box-shadow: 0px 5px 5px -5px #3399ff;
+    transform: translate(0,-2px);
+}
 
 
 

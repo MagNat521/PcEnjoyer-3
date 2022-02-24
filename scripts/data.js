@@ -1,6 +1,6 @@
 const powerUnitsIntelCpu = [{
     //intel
-     "name": "выберите ваш процессор Intel",
+     "name": "Выберите ваш процессор Intel",
      "power": 0
  },{
     "name": "Core I9 12900K",
@@ -528,7 +528,7 @@ const powerUnitsAmdCpu = [{
 
 const NVDA = [{
     //Nvidia videocards
-    "name": "выберите вашу видеокарту Nvidia",
+    "name": "Выберите вашу видеокарту Nvidia",
     "power": 0
 },{
     "name": "GeForce RTX 3090",
@@ -743,7 +743,7 @@ const NVDA = [{
 
 const AmdVd = [{
     //Amd videocards
-    "name": "выберите вашу видеокарту Amd",
+    "name": "Выберите вашу видеокарту Amd",
     "power": 0
 },{
     "name": "Radeon RX 6800 XT",
@@ -1020,7 +1020,7 @@ const AmdVd = [{
 
 //вентиляторы
 const coolingVents = [{
-    "name": "количествво вентиляторов",
+    "name": "Количествво вентиляторов",
     "power": 0
 },{
     "name": "1",
