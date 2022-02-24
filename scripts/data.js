@@ -1016,3 +1016,41 @@ const AmdVd = [{
     "name": "Radeon HD 7350",
     "power": 19
 }];
+
+
+//вентиляторы
+const coolingVents = [{
+    "name": "количествво вентиляторов",
+    "power": 0
+},{
+    "name": "1",
+    "power": 5
+},{
+    "name": "2",
+    "power": 10
+},{
+    "name": "3",
+    "power": 15
+},{
+    "name": "4",
+    "power": 20
+},{
+    "name": "5",
+    "power": 25
+},{
+    "name": "6",
+    "power": 30
+}];
+
+//количество помп водяного охлаждения
+
+const pomps = [{
+    "name": "Количество помп",
+    "power": 0
+},{
+    "name": "1",
+    "power": 10
+},{
+    "name": "2",
+    "power": 20
+}];

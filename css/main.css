@@ -224,7 +224,7 @@
         display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 5px;
+        margin-top: 10px;
         position: relative;
         border: 3px solid #3399ff;
         border-radius: 10px;
@@ -313,8 +313,15 @@
         right: 0;
         bottom: 0;
     }
+    .button-up-a{
+        transition: 0.3s;
+        opacity: 0.8;
+    }
+    .button-up-a:hover{
+        opacity: 1;
+    }
 
-    .button-up-a {
+    /*.button-up-a {
         border: 3px solid #3399ff;
         display: inline-block;
         position: relative;
@@ -361,7 +368,7 @@
     .button-up-a:hover {
         transition: 0.2s ease;
         box-shadow: 0px 0px 12px #4F5151;
-    }
+    } */
 
 
     /* раздел обновления */
@@ -647,7 +654,7 @@
         width: 40vw;
     }
     .bp-ph-5{
-        width: 40vw;
+        width: 60vw;
     }
 
     /* фото на странице центральный процессор*/
@@ -664,6 +671,34 @@
         width: 40vw;
     }
 
+    /* фото на странице корпус*/
+    .case-ph-1{
+        height: 70vh;
+    }
+    .case-ph-2{
+        width: 40vw;
+    }
+    .case-ph-3{
+        width: 30vw;
+    }
+    .case-ph-4{
+        width: 40vw;
+    }
+    .case-ph-5{
+        width: 40vw;
+        border: 1px solid #4F5151;
+    }
+    .case-ph-6{
+        height: 70vh;
+    }
+
+    /* фото на странице корпус*/
+    .cooling-ph-1{
+        height: 60vh;
+    }
+    .cooling-ph-2{
+        width: 40vw;
+    }
     /* подвал страницы (копирайт) */
 
 
@@ -778,18 +813,20 @@
 
 
     /* калькулятор для расчета мощности блока питания*/
-    select{
-        width: 250px;
-        padding: 6px;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        border: 0;
-        border-bottom: 4px solid #3399ff;
-        margin-left: 20vw;
-    }
 
     .link-to-other-site{
         text-decoration: underline #ddd;
+        color: #3399ff;
+    }
+
+    .calc-form-selects {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+    }
+
+    .finalPower{
         color: #3399ff;
     }
 }

@@ -34,6 +34,7 @@
 
 <script src="./scripts/data.js" ></script>
 
+<script src="./scripts/render-select.js"></script>
 
 </head>
 
@@ -41,7 +42,7 @@
 <nav class="navbar-pc">
     <div class="container-navbar" >
         <a href="index.html" class="navbar-brand-ph">
-            <img src="./photos/logopnepi%20(1).svg" width="400px" height="90" class="pc-enjoyer-ph">
+            <img src="./photos/logopnepi%20(1).svg" width="400px" height=80 class="pc-enjoyer-ph">
         </a>
         <div class="navbar-wrap">
             <ul class="navbar-menu">
@@ -51,9 +52,11 @@
                     <ul class="menu">
                         <li><a class="navbar-a-menu-level-2" href="./motherboard.html">Материнская плата</a></li>
                         <li><a class="navbar-a-menu-level-2" href="./cpu.html">Процессор</a></li>
-                        <li><a class="navbar-a-menu-level-2" href="./pwrunit.html">Блок питания</a></li>
                         <li><a class="navbar-a-menu-level-2" href="./memory.html">Оперативная память</a></li>
                         <li><a class="navbar-a-menu-level-2" href="./videocard.html">Видеокарта</a></li>
+                        <li><a class="navbar-a-menu-level-2" href="./case.html">Корпус</a></li>
+                        <li><a class="navbar-a-menu-level-2" href="./cooling-system.html">Система охлаждения</a></li>
+                        <li><a class="navbar-a-menu-level-2" href="./hdd-ssd.html">HDD SSD</a></li>
                     </ul>
                 </li>
             </ul>
@@ -63,7 +66,7 @@
 <nav class="navbar-phone">
     <div class="navbar-phone-container">
         <a href="index.html" class="navbar-brand-ph">
-            <img src="./photos/Logotupmobile(1).svg" width="240px" height="90" class="pc-enjoyer-ph">
+            <img src="./photos/Logotupmobile(1).svg" width="90px" height="90" class="pc-enjoyer-ph">
         </a>
         <div class="navbar-list" ontouchstart="">
             <a class="navbar-phone-links-container">МЕНЮ</a>
@@ -74,11 +77,15 @@
                 </br>
                 <li><a class="navbar-a-menu-level-2" href="./cpu.html">Процессор</a></li>
                 </br>
-                <li><a class="navbar-a-menu-level-2" href="./pwrunit.html">Блок питания</a></li>
-                </br>
                 <li><a class="navbar-a-menu-level-2" href="./memory.html">Оперативная память</a></li>
                 </br>
                 <li><a class="navbar-a-menu-level-2" href="./videocard.html">Видеокарта</a></li>
+                </br>
+                <li><a class="navbar-a-menu-level-2" href="./case.html">Корпус</a></li>
+                </br>
+                <li><a class="navbar-a-menu-level-2" href="./cooling-system.html">Система охлаждения</a></li>
+                </br>
+                <li><a class="navbar-a-menu-level-2" href="./hdd-ssd.html">HDD SSD</a></li>
             </ul>
         </div>
     </div>
@@ -185,7 +192,9 @@
 <h1 class="accesoire-name" id="noise-level">Уровень шума и сертификация Lambda</h1>
 <div class="about-accesoire">
     <p><img src="./photos/Money_Icon%20(2).svg" width="25" height="25">Таблица соответствия уровню сертификата шуму:</p>
-    <img src="./photos/photos-bp/bp-ph-5.png" class="bp-ph-5">
+    <div class="img-container">
+        <img src="./photos/photos-bp/bp-ph-5.png" class="bp-ph-5">
+    </div>
 </div>
 
 <h1 class="accesoire-name" id="80-plus">Сертификация 80 PLUS</h1>
@@ -204,18 +213,26 @@
 
 <h1 class="accesoire-name" id="calculactor-bp">Калькулятор мощности блока питания</h1>
 
+<div class="about-accesoire">
+    <form class="calc-form" id="calcForm">
+        <div class="calc-form-selects">
+
+        </div>
+        <input type="submit" value="Расчет"/>
+    </form>
+    </br>
+    <p>рекомендуемая мощность бп с учетом запаса 15%</p>
+    <div class="finalPower" id="finalPower"></div>
+</div>
 
 
+    <script src="scripts/general-calc-form.js"></script>
 
-    <script src="./scripts/Intel-cpu.js"></script>
-    <script src="./scripts/Amd-cpu.js"></script>
-    <script src="./scripts/nvidia-videcard.js"></script>
-    <script src="./scripts/amd-videocard.js"></script>
-
-
-    <div class="button-up">
-        <a href="#top" class="button-up-a">Наверх</a>
-    </div>
+<div class="button-up">
+    <a href="#top" class="button-up-a">
+        <img src="./photos/butanap.png" width="50" height="50">
+    </a>
+</div>
 <footer class="bottom-page">
     <p class="podval-text">© PC-Enjoyer 2021</p>
 </footer>
