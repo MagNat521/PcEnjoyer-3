@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="907609dd-78ca-48bc-bd75-76cccd4ec7fb" name="Changes" comment="конец (2)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="787588fa-3808-459e-9924-fbcbf9b7e032" />
+        <option name="url" value="https://github.com/turbopypip/PcEnjoyer-3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24QL6cs2nXESc5IscshgCwG42HA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="907609dd-78ca-48bc-bd75-76cccd4ec7fb" name="Changes" comment="" />
+      <created>1643557694084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643557694084</updated>
+      <workItem from="1643557695120" duration="4385000" />
+      <workItem from="1643832609136" duration="1999000" />
+      <workItem from="1643905577911" duration="6184000" />
+      <workItem from="1643922131218" duration="8000" />
+      <workItem from="1644001700194" duration="482000" />
+      <workItem from="1644056571981" duration="464000" />
+      <workItem from="1644070981940" duration="4939000" />
+      <workItem from="1644429941895" duration="6401000" />
+      <workItem from="1644437632907" duration="34000" />
+      <workItem from="1644590822535" duration="8000" />
+      <workItem from="1644595798104" duration="2065000" />
+      <workItem from="1644607403135" duration="5000" />
+      <workItem from="1644678600405" duration="592000" />
+      <workItem from="1644679867741" duration="35000" />
+      <workItem from="1644763974322" duration="2000" />
+      <workItem from="1644764887847" duration="2478000" />
+      <workItem from="1644932114696" duration="3000" />
+      <workItem from="1644941242605" duration="49000" />
+      <workItem from="1644941694477" duration="315000" />
+      <workItem from="1644942033845" duration="1000" />
+      <workItem from="1644943689567" duration="4819000" />
+      <workItem from="1644952658086" duration="12000" />
+      <workItem from="1645038624166" duration="38000" />
+      <workItem from="1645039106224" duration="306000" />
+      <workItem from="1645040637810" duration="594000" />
+      <workItem from="1645119803757" duration="6639000" />
+      <workItem from="1645184755518" duration="545000" />
+      <workItem from="1645193710237" duration="1125000" />
+      <workItem from="1645201046825" duration="2900000" />
+      <workItem from="1645220188978" duration="2000" />
+      <workItem from="1645303640497" duration="2477000" />
+      <workItem from="1645306486168" duration="1657000" />
+      <workItem from="1645463667634" duration="20195000" />
+      <workItem from="1645520644542" duration="18020000" />
+      <workItem from="1645625015347" duration="8814000" />
+      <workItem from="1645648738716" duration="553000" />
+      <workItem from="1645725050455" duration="8345000" />
+      <workItem from="1645799055001" duration="33000" />
+    </task>
+    <task id="LOCAL-00001" summary="логотип поменял (1)испарвил ошбики">
+      <created>1643563008279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643563008279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="кнопка наверх работает прекрасно">
+      <created>1643834584827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643834584827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="кнопка наверх работает прекрасно">
+      <created>1643912372174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643912372174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="кнопка подробнее + переделал оперативную память">
+      <created>1644076775905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644076775905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="переделал статьи, добавил легенду на начальную страницу">
+      <created>1644437357445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644437357445</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавил недостающее в материнскую плату">
+      <created>1644948840431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644948840431</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавил видеокарту">
+      <created>1645126657675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645126657675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="начал делать калькулятор для блока питания">
+      <created>1645307140570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645307140570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="начал делать калькулятор для блока питания">
+      <created>1645525689334</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645525689334</updated>
+    </task>
+    <task id="LOCAL-00010" summary="конец">
+      <created>1645731646028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645731646028</updated>
+    </task>
+    <task id="LOCAL-00011" summary="конец (2)">
+      <created>1645733289931</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645733289931</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="логотип поменял (1)испарвил ошбики" />
+    <MESSAGE value="кнопка наверх работает прекрасно" />
+    <MESSAGE value="кнопка подробнее + передаелал оперативную память" />
+    <MESSAGE value="кнопка подробнее + переделал оперативную память" />
+    <MESSAGE value="переделал статьи, добавил легенду на начальную страницу" />
+    <MESSAGE value="добавил недостающее в материнскую плату" />
+    <MESSAGE value="добавил видеокарту" />
+    <MESSAGE value="начал делать калькулятор для блока питания" />
+    <MESSAGE value="конец" />
+    <MESSAGE value="конец (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="конец (2)" />
+  </component>
+</project>
